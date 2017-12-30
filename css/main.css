@@ -50,20 +50,20 @@ body {
   top: 12px;
 }
 
-.robot-head-right:hover {
-  position: absolute;
-  right: 560px;
-  top: 4px;
-}
-
 .robot-head-left {
   position: absolute;
   left: 600px;
   top: 12px;
 }
 
-.robot-head-left:hover {
+.robot:hover .robot-head-left{
   position: absolute;
   left: 560px;
+  top: 4px;
+}
+
+.robot:hover .robot-head-right{
+  position: absolute;
+  right: 560px;
   top: 4px;
 }
